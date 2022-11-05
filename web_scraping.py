@@ -16,3 +16,4 @@ print(len(movies))
 movies = soup.select('.movie-card .mc-poster a')
 for m in movies:
     print(m.attrs['href'])
+
